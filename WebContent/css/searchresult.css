@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/* 書籍検索結果画面のスタイル*/
+.book-item {
+  display: flex;
+  border-bottom: 1px dashed #bec2c7;
+  padding: 20px 8px;
+}
+.book-photo {
+  margin-right: 16px;
+  flex: 1 1 auto;
+}
+.book-price {
+    flex: 100 100 360px;
+}

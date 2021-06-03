@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/* 送信ボタンをデザインします */
+.submit-button{
+	font-size : 24px;
+	cursor : pointer;
+	background-color : transparent;
+	color : blue;
+	border : none;
+}
+.submit-button:hover {
+	box-shadow : none;
+	background-color : transparent;
+	text-decoration : underline;
+}

@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.info {
+  margin: 1em auto;
+  padding: 0 1.5em;
+  border: 1px solid #ccc;
+  text-align: left;
+  font-size: 1em;
+  line-height: 1.3;
+  color: #444;
+  overflow: auto;
+  width: 90%;
+  height: 10em;
+  background-color: #fcfcfc;
+}
+
+.info dl {
+  padding: 0.5em 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.info dt {
+  padding-bottom: 0;
+  width: 6em;
+}
+
+@media screen and (min-width: 480px) {
+  .info dt {
+    clear: left;
+    float: left;
+  }
+  .info dd {
+    margin-left: 0.5em;
+  }
+}
+

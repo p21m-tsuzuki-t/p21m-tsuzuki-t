@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/* すべてのWebページに適用される */
+html {
+	font-family: sans-serif;
+}
+html * {
+	box-sizing: border-box;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+a {text-decoration: none;
+color:black; }
+/*
+.wrapper {
+	margin : 0 auto 0 auto;
+}
+*/
+/* すべてのページに適用 - ヘッダー - */
+/* .logo {
+	margin: 50px 0 40px 0;
+	line-height: 0;
+	text-align: center;
+} */
+.nav li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 30px;
+}
+.nav ul {
+	margin: 0 0 0 0;
+	padding: 20px 10px 15px 20px;
+	background-image: url(../images/menu-bg.png);
+	background-repeat: repeat-x;
+}
+.nav a:link {
+	color: #3c454d;
+	text-decoration: none;
+}
+.nav a:visited {
+	color: #3c454d;
+	text-decoration: none;
+}
+.nav a:hover {
+	color: #7b8dac;
+	text-decoration: none;
+}
+.nav a:active {
+	color: #5a9bc0;
+	text-decoration: none;
+}
+
+/* すべてのページに適用 - フッター - */
+.footer{
+  border-top-width:1px;
+}

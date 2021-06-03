@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.subbox { display: none; }
+
+
+.pulldownset {
+   border: 3px double #0000cc;  /* 青色の二重線(3px) */
+   /* background-color: #eeeeff; */   /* 背景色：淡い青色 */
+   margin: 1em 0px;             /* 外側の余白：上下に1文字分 */
+   padding: 1em;                /* 内側の余白：周囲に1文字分 */
+   overflow: auto;             /*  はみ出る場合は自動調整(スクロールバーを表示) */
+}
+/* ▼プルダウンメニューそのものの装飾 */
+select {
+   width: 120px;
+   font-size: 1.2em;   /* 項目の文字サイズを1.2倍に */
+}
